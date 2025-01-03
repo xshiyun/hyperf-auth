@@ -18,7 +18,7 @@ use function Hyperf\Support\make;
 
 /**
  * Class AuthManager.
- * @method login(Authenticatable $user)
+ * @method login(Authenticatable $user,array $payload)
  * @method null|Authenticatable user($token = null)
  * @method bool check($token = null)
  * @method logout()
